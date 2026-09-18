@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jefersson Beltrán</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Ventas de autos BMW">
-    <meta name="theme-color" content="#ffffff">
+    <title>Hoja de Vida - Jefersson Beltrán</title>
 
-    <link rel="icon" type="image/png" href="/imagenes/BMW.png">
-
-    <meta property="og:title" content="Jefersson Beltrán">
-    <meta property="og:description" content="Ventas de autos BMW">
-    <meta property="og:image" content="/imagenes/BMW.png">
-
-    <link rel="alternate" hreflang="es" href="https://midu.dev/en">
-    <link rel="alternate" hreflang="es" href="https://midu.dev/es">
-
-    <style>
-        body {
-            background-color: #7b63d3;
-        }
-    </style>
+    <meta
+        name="description"
+        content="Perfil personal y profesional de Jefersson Beltrán"
+    >
 
 </head>
 
@@ -32,193 +23,50 @@
 
     <header>
 
-        <h1>PRACTICA DE WED</h1>
+        <h1>Jefersson Beltrán</h1>
 
-<iframe
-    style="width: 100%; aspect-ratio: 16/9;"
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/AlxyrW0Jl7o?autoplay=1&mute=1&loop=1&playlist=AlxyrW0Jl7o"
-    title="THE M3 CS (2023)"
-    frameborder="0"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    allowfullscreen>
-</iframe>
+        <p>
+            Estudiante de Tecnología de Sistemas de Información
+        </p>
+
+        <img
+            src="imagenes/YO.jpeg"
+            alt="Fotografía de Jefersson Beltrán"
+            width="200"
+        >
 
         <nav>
 
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                Twitter
-            </a>
-
-            <a href="#Aplicacion-de-ecommerce">
-                Aplicación de ecommerce
-            </a>
-
-            <a href="#mis-carros-vendidos">
-                Mis carros vendidos
-            </a>
-
-            <a href="#Experiencia">
-                Experiencia
-            </a>
-
-            <a href="#descripcion-del-sitio-web">
-                Descripción del sitio web
-            </a>
+            <a href="#sobre-mi">Sobre mí</a> |
+            <a href="#formacion">Formación</a> |
+            <a href="#habilidades">Habilidades</a> |
+            <a href="#experiencia">Experiencia</a> |
+            <a href="#proyectos">Proyectos</a> |
+            <a href="#contacto">Contacto</a>
 
         </nav>
 
     </header>
 
-    <dialog id="dialog">
-        <h1>
-            Sabias que puedes descargar la imagen del BMW haciendo click en el enlace "Descargar imagen BMW" que se encuentra debajo de la sección de experiencia.
-        </h1>
-        <p>!Y también puedes compartirla con tus amigos!</p>
-        <button id="hide">Cerrar modal</button>
-    </dialog>
 
-    <button id="show">Ver más información</button>
-
-    <script>
-        window.show.addEventListener("click", () => {
-            window.dialog.showModal();
-        });
-
-        window.hide.addEventListener("click", () => {
-            window.dialog.close();
-        });
-    </script>
-    
     <main>
 
-        <video
-            width="560"
-            height="315"
-            autoplay
-            loop
-            muted
-            src="Videos/BMWT.mp4">
-        </video>
+        <!-- SOBRE MÍ -->
 
+        <section id="sobre-mi">
 
-        <p>
-            Experto en ventas de autos BMW con más de 10 años de experiencia
-            en el sector automotriz. Mi objetivo es brindar a los clientes
-            una experiencia de compra excepcional, ofreciendo asesoramiento
-            personalizado y garantizando la satisfacción del cliente en cada
-            transacción.
-        </p>
-
-
-        <h2 id="Experiencia">
-            Experiencia
-        </h2>
-
-        <ul>
-
-            <li class="list-item">
-                KIA - 2021
-            </li>
-
-            <li class="list-item">
-                Mac Klaren - 2022
-            </li>
-
-            <li class="list-item">
-                Ferrari - 2023
-            </li>
-
-        </ul>
-
-
-        <a download href="/imagenes/BMW.png">
-            Descargar imagen BMW
-        </a>
-
-        <br>
-
-        <img
-            id="photo-imagenBMW"
-            width="400"
-            height="200"
-            title="BMW de prueba"
-            alt="Foto de un BMW negro para la feria de las ruedas"
-            src="imagenes/BMW.png">
-
-
-        <h2>
-            Carros Vendidos
-        </h2>
-
-
-        <aside>
-
-            <header>
-
-                <h3 id="mis-carros-vendidos">
-                    Mis carros vendidos
-                </h3>
-
-            </header>
-
-            <ol>
-
-                <li>
-                    BMW X5
-                </li>
-
-                <li>
-                    BMW 3 Series
-                </li>
-
-                <li>
-                    BMW 5 Series
-                </li>
-
-            </ol>
-
-
-            <h4>
-                Auto más vendido
-            </h4>
-
-            <img
-                loading="lazy"
-                src="imagenes/bmw2.png"
-                alt="BMW 3 Series"
-                width="300"
-                height="200">
-
-        </aside>
-
-
-        <section>
-
-            <div>
-
-                <h3 id="descripcion-del-sitio-web">
-                    Descripción del Sitio Web
-                </h3>
-
-                <p>
-                    Desarrollo de una página web para la venta de autos
-                    con una interfaz interactiva y fácil de usar para
-                    los clientes que quieran comprar un auto BMW.
-                </p>
-
-            </div>
-
-
-            <h3 id="Aplicacion-de-ecommerce">
-                Aplicación de ecommerce
-            </h3>
+            <h2>Sobre mí</h2>
 
             <p>
-                En el ecommerce se podrán ver los carros disponibles
-                para la venta y se podrá hacer la compra de los carros
-                de manera fácil y segura.
+                Mi nombre es Jefersson Beltrán. Soy estudiante de
+                tecnología de Sistemas de información y tengo interés en el área de
+                tecnología, desarrollo de software y programación web.
+            </p>
+
+            <p>
+                Me considero una persona responsable, comprometida,
+                colaborativa y con disposición para aprender nuevas
+                tecnologías y adquirir nuevos conocimientos.
             </p>
 
         </section>
@@ -226,69 +74,439 @@
 
         <section>
 
-            <h2>
-                Preguntas frecuentes
-            </h2>
+            <h2>Información personal</h2>
+
+            <ul>
+
+                <li>
+                    <strong>Nombre:</strong>
+                    Jefersson Beltrán
+                </li>
+
+                <li>
+                    <strong>Profesión:</strong>
+                    Estudiante de Tecnología de Sistemas de Información
+                </li>
+
+                <li>
+                    <strong>Ciudad:</strong>
+                    Cali, Colombia
+                </li>
+
+                <li>
+                    <strong>Correo:</strong>
+                    <a href="mailto:jefferobc@gmail.com">
+                        jefferobc@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <strong>Teléfono:</strong>
+                    <a href="tel:+573143005534">
+                        +57 314 300 5534
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
 
 
-            <details>
+        <section id="formacion">
 
-                <summary>
-                    ¿Cuáles son los modelos de BMW disponibles para la venta?
-                </summary>
+            <h2>Formación académica</h2>
+
+            <article>
+
+                <h3>Técnico en Sistemas</h3>
 
                 <p>
-                    Actualmente, tenemos disponibles los modelos BMW X5,
-                    BMW 3 Series y BMW 5 Series.
+                    Servicio Nacional de Aprendizaje - SENA
                 </p>
 
-            </details>
-
-
-            <details>
-
-                <summary>
-                    ¿Ofrecen financiamiento para la compra de un BMW?
-                </summary>
+                <h3>Tecnología de Sistemas de Información</h3>
 
                 <p>
-                    Sí, ofrecemos opciones de financiamiento flexibles
-                    para facilitar la compra de tu BMW. Nuestro equipo
-                    de ventas te guiará a través del proceso y te ayudará
-                    a encontrar la mejor opción de financiamiento según
-                    tus necesidades.
+                    Institución Universitaria Antonio José Camacho
                 </p>
-
-            </details>
-
-
-            <details>
-
-                <summary>
-                    ¿Cuál es el proceso de entrega del vehículo después de la compra?
-                </summary>
 
                 <p>
-                    Una vez que completes la compra de tu BMW, nuestro
-                    equipo se encargará de coordinar la entrega del vehículo.
-                    Te proporcionaremos toda la información necesaria sobre
-                    el proceso de entrega, incluyendo la fecha y ubicación
-                    de entrega, así como los documentos requeridos.
+                    Actualmente cursando estudios universitarios.
                 </p>
 
-            </details>
+            </article>
+
+
+            <article>
+
+                <h3>Formación Tecnológica</h3>
+
+                <p>
+                    Servicio Nacional de Aprendizaje - SENA
+                </p>
+
+                <p>
+                    Formación relacionada con el área de sistemas
+                    y tecnología.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section id="habilidades">
+
+            <h2>Habilidades</h2>
+
+            <h3>Habilidades técnicas</h3>
+
+            <ul>
+
+                <li>HTML</li>
+
+                <li>Java</li>
+
+                <li>Python</li>
+
+                <li>CSS</li>
+
+                <li>JavaScript</li>
+
+                <li>MySQL</li>
+
+                <li>Git y GitHub</li>
+
+                <li>Microsoft Word</li>
+
+                <li>Microsoft Excel</li>
+
+                <li>Microsoft PowerPoint</li>
+
+            </ul>
+
+
+            <h3>Habilidades personales</h3>
+
+            <ul>
+
+                <li>Trabajo en equipo</li>
+
+                <li>Responsabilidad</li>
+
+                <li>Comunicación</li>
+
+                <li>Adaptabilidad</li>
+
+                <li>Resolución de problemas</li>
+
+                <li>Aprendizaje continuo</li>
+
+            </ul>
+
+        </section>
+
+
+
+        <section id="experiencia">
+
+            <h2>Experiencia</h2>
+
+            <article>
+
+                <h3>Aprendiz - Área de Tecnología</h3>
+
+                <p>
+                    <strong>Empresa:</strong>
+                    EVACOL SAS
+                </p>
+
+                <p>
+                    Apoyo en actividades relacionadas con tecnología,
+                    soporte informático y manejo de herramientas
+                    tecnológicas.
+                </p>
+
+                <p>Manejo de directorio activo, creando, editando y eliminando usuarios, ademas
+                   de otorgar permisos y funciones, llevar proyecto de desarrollo WED. </p>
+
+                     <p>
+        Experiencia en el manejo del sistema Siesa Administrador,
+        realizando actividades relacionadas con la gestión y consulta
+        de información, apoyo a los usuarios y manejo de procesos
+        administrativos dentro del sistema.
+    </p>
+
+    <p>
+        También cuento con experiencia en soporte técnico,
+        mantenimiento de equipos y atención de requerimientos
+        tecnológicos.
+    </p>
+
+
+            </article>
+
+
+            <article>
+
+                <h3>Experiencia académica</h3>
+
+                <p>
+                    Durante mi formación académica he participado en
+                    diferentes proyectos relacionados con programación,
+                    bases de datos, desarrollo web y sistemas de
+                    información.
+                </p>
+
+            </article>
+
+        </section>
+
+
+
+        <section id="proyectos">
+
+            <h2>Proyectos</h2>
+
+
+            <article>
+
+                <h3>FINOVA - Control de Gastos</h3>
+
+                <p>
+                    Proyecto de una aplicación web para llevar el
+                    control de gastos personales de manera mensual.
+                </p>
+
+                <p>
+                    Tecnologías utilizadas:
+                </p>
+
+                <ul>
+
+                    <li>HTML</li>
+
+                    <li>CSS</li>
+
+                    <li>JavaScript</li>
+
+                    <li>Python</li>
+
+                    <li>Flask</li>
+
+                    <li>MySQL</li>
+
+                </ul>
+
+            </article>
+
+
+            <article>
+
+                <h3>InventorySoft</h3>
+
+                <p>
+                    Sistema desarrollado para la gestión y control
+                    de inventario.
+                </p>
+
+                <p>
+                    El proyecto permite administrar productos,
+                    categorías, proveedores y movimientos de
+                    inventario.
+                </p>
+
+                <p>
+                    Tecnologías utilizadas:
+                </p>
+
+                <ul>
+
+                    <li>Java</li>
+
+                    <li>JavaFX</li>
+
+                    <li>MySQL</li>
+
+                    <li>MVC</li>
+
+                </ul>
+
+                <article>
+
+    <h3>Lector de Facturas</h3>
+
+    <p>
+        Proyecto desarrollado para facilitar la lectura y extracción
+        de información de facturas de manera automatizada. La aplicación
+        permite analizar una factura y obtener datos importantes como
+        número de factura, fecha, proveedor, productos y valores
+        registrados.
+    </p>
+
+    <p>
+        El objetivo del proyecto es reducir el ingreso manual de
+        información y facilitar la organización y gestión de los datos
+        obtenidos de las facturas.
+    </p>
+
+    <p>
+        Tecnologías utilizadas:
+    </p>
+
+    <ul>
+        <li>Python</li>
+        <li>Procesamiento de documentos</li>
+        <li>OCR</li>
+        <li>HTML</li>
+        <li>MySQL</li>
+    </ul>
+
+</article>
+            </article>
 
         </section>
 
 
         <section>
 
-            <h2>
-                Formulario de Contacto
-            </h2>
+            <h2>Intereses</h2>
+
+            <ul>
+
+                <li>Desarrollo de software</li>
+
+                <li>Programación web</li>
+
+                <li>Bases de datos</li>
+
+                <li>Inteligencia artificial</li>
+
+                <li>Tecnología</li>
+
+                <li>Automóviles</li>
+
+                <li>Aprender nuevas herramientas</li>
+
+            </ul>
+
+        </section>
 
 
-            <form method="post" action="/">
+
+        <section>
+
+            <h2>Conocimientos</h2>
+
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Tecnología</th>
+
+                        <th>Nivel</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>HTML</td>
+
+                        <td>Intermedio</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Java</td>
+
+                        <td>Básico - Intermedio</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>MySQL</td>
+
+                        <td>Básico - Intermedio</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Git y GitHub</td>
+
+                        <td>Intermedio</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Python</td>
+
+                        <td>Básico</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>JavaScrip</td>
+
+                        <td>Básico</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+
+        <section>
+
+            <h2>Enlaces de interés</h2>
+
+            <ul>
+
+                <li>
+                    <a
+                        href="https://github.com/Jeff10B"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Mi GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.linkedin.com/feed/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Mi LinkedIn
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <form>
 
                 <fieldset>
 
@@ -297,141 +515,146 @@
                     </legend>
 
 
-                    <div>
+                    <p>
 
-                        <label>
+                        <label for="nombre">
                             Nombre:
-
-                            <input
-                                type="text"
-                                name="name"
-                                placeholder="Ingrese su nombre"
-                                required>
-
                         </label>
 
-                    </div>
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingrese su nombre"
+                            required
+                        >
+
+                    </p>
 
 
-                    <label>
-                        Correo:
+                    <p>
+
+                        <label for="correo">
+                            Correo electrónico:
+                        </label>
 
                         <input
                             type="email"
-                            name="email"
-                            placeholder="******@gmail.com"
-                            required>
+                            id="correo"
+                            name="correo"
+                            placeholder="correo@ejemplo.com"
+                            required
+                        >
 
-                    </label>
-
-                </fieldset>
-
-
-                <fieldset>
-
-                    <legend>
-                        Información adicional
-                    </legend>
+                    </p>
 
 
-                    <div>
+                    <p>
 
-                        <label>
-                            Teléfono:
-
-                            <input
-                                type="tel"
-                                name="phone"
-                                placeholder="Ingrese su teléfono"
-                                required
-                                pattern="[0-9]{10}">
-
+                        <label for="motivo">
+                            Motivo de contacto:
                         </label>
 
-                    </div>
-
-                </fieldset>
-
-
-                <fieldset>
-
-                    <legend>
-                        Otros
-                    </legend>
-
-
-                    <div>
-
-                        <label for="why">
-                            ¿Por qué desea contactarme?
-                        </label>
-
-                        <select name="why" id="why">
+                        <select
+                            id="motivo"
+                            name="motivo"
+                        >
 
                             <option value="consulta">
                                 Consulta
                             </option>
 
-                            <option value="sugerencia">
-                                Sugerencia
+                            <option value="propuesta">
+                                Propuesta
                             </option>
 
-                            <option value="reclamo">
-                                Más información
+                            <option value="trabajo">
+                                Oportunidad laboral
                             </option>
 
                         </select>
 
-                    </div>
+                    </p>
 
 
-                    <div>
+                    <p>
 
-                        <label for="terms">
-                            ¡Acepto los términos y condiciones!
+                        <label for="mensaje">
+                            Mensaje:
                         </label>
+
+                        <br>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="5"
+                            cols="40"
+                            placeholder="Escriba su mensaje"
+                        ></textarea>
+
+                    </p>
+
+
+                    <p>
 
                         <input
                             type="checkbox"
-                            name="terms"
-                            id="terms"
-                            required>
+                            id="terminos"
+                            name="terminos"
+                            required
+                        >
 
-                    </div>
-
-
-                    <div>
-
-                        <datalist id="vehiculos">
-
-                            <option value="BMW X5"></option>
-                            <option value="BMW MOTOS"></option>
-                            <option value="BMW 3 SERIES"></option>
-                            <option value="BMW 5 SERIES"></option>
-                            <option value="BMW DEPORTIVO"></option>
-
-                        </datalist>
-
-
-                        <label>
-                            ¿Con qué vehículo estás interesado?
-
-                            <input
-                                list="vehiculos"
-                                name="vehiculo">
-
+                        <label for="terminos">
+                            Acepto los términos y condiciones
                         </label>
 
-                    </div>
+                    </p>
+
+
+                    <button type="submit">
+                        Enviar mensaje
+                    </button>
 
                 </fieldset>
 
-
-                <input
-                    type="submit"
-                    value="Enviar contacto">
-
             </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Información adicional</h2>
+
+            <details>
+
+                <summary>
+                    ¿Cuál es mi objetivo profesional?
+                </summary>
+
+                <p>
+                    Continuar fortaleciendo mis conocimientos en
+                    tecnología y desarrollarme profesionalmente en
+                    el área de sistemas.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    ¿Qué tecnologías quiero aprender?
+                </summary>
+
+                <p>
+                    Me interesa continuar aprendiendo desarrollo web,
+                    bases de datos, inteligencia artificial y nuevas
+                    tecnologías de software.
+                </p>
+
+            </details>
 
         </section>
 
@@ -440,17 +663,28 @@
 
     <footer>
 
+        <hr>
+
         <p>
-            &copy; 2023 Jefersson Beltrán. Todos los derechos reservados.
+            &copy; 2026 Jefersson Beltrán
         </p>
 
-        <a href="mailto:jefferobc@gmail.com">
-            Envíame un correo
-        </a>
+        <p>
+            Perfil personal y profesional
+        </p>
 
-        <a href="tel:+573143005534">
+         <a href="mailto:jefferobc@gmail.com">
+            Envíame un correo
+        </a><p>
+            <a href="mailto:jefferobc@gmail.com">
+                Enviar correo
+            </a>
+        </p>
+        <p>
+         <a href="tel:+573143005534">
             Llamar por celular
         </a>
+        </p>
 
         <a
             href="https://wa.me/573143005534?text=Hola%20Jefersson,%20tengo%20alguna%20pregunta"
@@ -458,7 +692,6 @@
             rel="noreferrer">
             Contactar por WhatsApp
         </a>
-
     </footer>
 
 </body>
