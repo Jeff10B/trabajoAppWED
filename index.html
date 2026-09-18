@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jefersson Beltrán</title>
+
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Ventas de autos BMW">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" type="image/png" href="/imagenes/BMW.png">
+
+    <meta property="og:title" content="Jefersson Beltrán">
+    <meta property="og:description" content="Ventas de autos BMW">
+    <meta property="og:image" content="/imagenes/BMW.png">
+
+    <link rel="alternate" hreflang="es" href="https://midu.dev/en">
+    <link rel="alternate" hreflang="es" href="https://midu.dev/es">
+
+    <style>
+        body {
+            background-color: #7b63d3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>PRACTICA DE WED</h1>
+
+<iframe
+    style="width: 100%; aspect-ratio: 16/9;"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/AlxyrW0Jl7o?autoplay=1&mute=1&loop=1&playlist=AlxyrW0Jl7o"
+    title="THE M3 CS (2023)"
+    frameborder="0"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+        <nav>
+
+            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                Twitter
+            </a>
+
+            <a href="#Aplicacion-de-ecommerce">
+                Aplicación de ecommerce
+            </a>
+
+            <a href="#mis-carros-vendidos">
+                Mis carros vendidos
+            </a>
+
+            <a href="#Experiencia">
+                Experiencia
+            </a>
+
+            <a href="#descripcion-del-sitio-web">
+                Descripción del sitio web
+            </a>
+
+        </nav>
+
+    </header>
+
+    <dialog id="dialog">
+        <h1>
+            Sabias que puedes descargar la imagen del BMW haciendo click en el enlace "Descargar imagen BMW" que se encuentra debajo de la sección de experiencia.
+        </h1>
+        <p>!Y también puedes compartirla con tus amigos!</p>
+        <button id="hide">Cerrar modal</button>
+    </dialog>
+
+    <button id="show">Ver más información</button>
+
+    <script>
+        window.show.addEventListener("click", () => {
+            window.dialog.showModal();
+        });
+
+        window.hide.addEventListener("click", () => {
+            window.dialog.close();
+        });
+    </script>
+    
+    <main>
+
+        <video
+            width="560"
+            height="315"
+            autoplay
+            loop
+            muted
+            src="Videos/BMWT.mp4">
+        </video>
+
+
+        <p>
+            Experto en ventas de autos BMW con más de 10 años de experiencia
+            en el sector automotriz. Mi objetivo es brindar a los clientes
+            una experiencia de compra excepcional, ofreciendo asesoramiento
+            personalizado y garantizando la satisfacción del cliente en cada
+            transacción.
+        </p>
+
+
+        <h2 id="Experiencia">
+            Experiencia
+        </h2>
+
+        <ul>
+
+            <li class="list-item">
+                KIA - 2021
+            </li>
+
+            <li class="list-item">
+                Mac Klaren - 2022
+            </li>
+
+            <li class="list-item">
+                Ferrari - 2023
+            </li>
+
+        </ul>
+
+
+        <a download href="/imagenes/BMW.png">
+            Descargar imagen BMW
+        </a>
+
+        <br>
+
+        <img
+            id="photo-imagenBMW"
+            width="400"
+            height="200"
+            title="BMW de prueba"
+            alt="Foto de un BMW negro para la feria de las ruedas"
+            src="imagenes/BMW.png">
+
+
+        <h2>
+            Carros Vendidos
+        </h2>
+
+
+        <aside>
+
+            <header>
+
+                <h3 id="mis-carros-vendidos">
+                    Mis carros vendidos
+                </h3>
+
+            </header>
+
+            <ol>
+
+                <li>
+                    BMW X5
+                </li>
+
+                <li>
+                    BMW 3 Series
+                </li>
+
+                <li>
+                    BMW 5 Series
+                </li>
+
+            </ol>
+
+
+            <h4>
+                Auto más vendido
+            </h4>
+
+            <img
+                loading="lazy"
+                src="imagenes/bmw2.png"
+                alt="BMW 3 Series"
+                width="300"
+                height="200">
+
+        </aside>
+
+
+        <section>
+
+            <div>
+
+                <h3 id="descripcion-del-sitio-web">
+                    Descripción del Sitio Web
+                </h3>
+
+                <p>
+                    Desarrollo de una página web para la venta de autos
+                    con una interfaz interactiva y fácil de usar para
+                    los clientes que quieran comprar un auto BMW.
+                </p>
+
+            </div>
+
+
+            <h3 id="Aplicacion-de-ecommerce">
+                Aplicación de ecommerce
+            </h3>
+
+            <p>
+                En el ecommerce se podrán ver los carros disponibles
+                para la venta y se podrá hacer la compra de los carros
+                de manera fácil y segura.
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>
+                Preguntas frecuentes
+            </h2>
+
+
+            <details>
+
+                <summary>
+                    ¿Cuáles son los modelos de BMW disponibles para la venta?
+                </summary>
+
+                <p>
+                    Actualmente, tenemos disponibles los modelos BMW X5,
+                    BMW 3 Series y BMW 5 Series.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    ¿Ofrecen financiamiento para la compra de un BMW?
+                </summary>
+
+                <p>
+                    Sí, ofrecemos opciones de financiamiento flexibles
+                    para facilitar la compra de tu BMW. Nuestro equipo
+                    de ventas te guiará a través del proceso y te ayudará
+                    a encontrar la mejor opción de financiamiento según
+                    tus necesidades.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    ¿Cuál es el proceso de entrega del vehículo después de la compra?
+                </summary>
+
+                <p>
+                    Una vez que completes la compra de tu BMW, nuestro
+                    equipo se encargará de coordinar la entrega del vehículo.
+                    Te proporcionaremos toda la información necesaria sobre
+                    el proceso de entrega, incluyendo la fecha y ubicación
+                    de entrega, así como los documentos requeridos.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <section>
+
+            <h2>
+                Formulario de Contacto
+            </h2>
+
+
+            <form method="post" action="/">
+
+                <fieldset>
+
+                    <legend>
+                        Formulario de contacto
+                    </legend>
+
+
+                    <div>
+
+                        <label>
+                            Nombre:
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Ingrese su nombre"
+                                required>
+
+                        </label>
+
+                    </div>
+
+
+                    <label>
+                        Correo:
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="******@gmail.com"
+                            required>
+
+                    </label>
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>
+                        Información adicional
+                    </legend>
+
+
+                    <div>
+
+                        <label>
+                            Teléfono:
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="Ingrese su teléfono"
+                                required
+                                pattern="[0-9]{10}">
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>
+                        Otros
+                    </legend>
+
+
+                    <div>
+
+                        <label for="why">
+                            ¿Por qué desea contactarme?
+                        </label>
+
+                        <select name="why" id="why">
+
+                            <option value="consulta">
+                                Consulta
+                            </option>
+
+                            <option value="sugerencia">
+                                Sugerencia
+                            </option>
+
+                            <option value="reclamo">
+                                Más información
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="terms">
+                            ¡Acepto los términos y condiciones!
+                        </label>
+
+                        <input
+                            type="checkbox"
+                            name="terms"
+                            id="terms"
+                            required>
+
+                    </div>
+
+
+                    <div>
+
+                        <datalist id="vehiculos">
+
+                            <option value="BMW X5"></option>
+                            <option value="BMW MOTOS"></option>
+                            <option value="BMW 3 SERIES"></option>
+                            <option value="BMW 5 SERIES"></option>
+                            <option value="BMW DEPORTIVO"></option>
+
+                        </datalist>
+
+
+                        <label>
+                            ¿Con qué vehículo estás interesado?
+
+                            <input
+                                list="vehiculos"
+                                name="vehiculo">
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <input
+                    type="submit"
+                    value="Enviar contacto">
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2023 Jefersson Beltrán. Todos los derechos reservados.
+        </p>
+
+        <a href="mailto:jefferobc@gmail.com">
+            Envíame un correo
+        </a>
+
+        <a href="tel:+573143005534">
+            Llamar por celular
+        </a>
+
+        <a
+            href="https://wa.me/573143005534?text=Hola%20Jefersson,%20tengo%20alguna%20pregunta"
+            target="_blank"
+            rel="noreferrer">
+            Contactar por WhatsApp
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
